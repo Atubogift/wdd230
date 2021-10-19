@@ -1,0 +1,14 @@
+@media only screen and (min-width: 35em) {
+    nav bottom {
+        display: none;
+    }
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    border: none;
+    border: right: 1px solid rgba(0, 0, 0, 0.3);
+}
