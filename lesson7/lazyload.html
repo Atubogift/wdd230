@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+
+<body>
+    <main>
+        <h1>Progressive Loading (Images)</h1>
+        <picture>
+            <img src="image/christus.png?tr=w-400,h-300" alt="christus" />
+        </picture>
+        <picture>
+            <img src="image/boy.jpg?tr=w-400,h-300" alt="stream" />
+        </picture>
+        <picture>
+            <img class="lazy" data-src="https://ik.imagekit.io/demo/img/image5.jpeg?tr=w-400,h-300" />
+        </picture>
+        <img class="lazy" data-src="https://ik.imagekit.io/demo/img/image6.jpeg?tr=w-400,h-300" />
+        <picture>
+            <img class="lazy" data-src="https://ik.imagekit.io/demo/img/image7.jpeg?tr=w-400,h-300" />
+        </picture>
+        <picture>
+            <img class="lazy" data-src="https://ik.imagekit.io/demo/img/image8.jpeg?tr=w-400,h-300" />
+        </picture>0
+
+    </main>
+    <script src="js/lazy.js"></script>
+    <script type="text/javascript"></script>
+
+</body>
+
+</html>

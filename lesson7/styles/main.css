@@ -1,0 +1,28 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #88CCF1;
+}
+
+main h1 {
+    font-style: Regular 400 italic;
+    background-color: #3587A4;
+    display: grid;
+    border: 1px solid #bbb;
+    margin: 1rem;
+    padding: 2rem;
+    text-align: center;
+    grid-template-columns: 1fr;
+    width: 95%;
+    list-style: none;
+}
+
+img {
+    background: #88CCF1;
+    width: 400;
+    height: 300;
+    display: block;
+    margin: 10px auto;
+    border: 0;
+}

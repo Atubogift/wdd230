@@ -12,19 +12,19 @@
     }
 }
 
-.navigation {
+.navigator {
     display: flex;
 }
 
-.navigation li:first-child {
+.navigator li:first-child {
     display: none;
 }
 
-.navigation li {
+.navigator li {
     display: block;
     flex: 1 1 100%;
 }
 
-.navigation li a {
+.navigator li a {
     color: blue;
 }
