@@ -1,0 +1,12 @@
+@media only screen and (min-width: 500px) {
+    .form-box {}
+    .form-box label {
+        display: block;
+    }
+    .form-box input {}
+    .form-box select {}
+    .form-box textarea {
+        flex-basis: auto;
+    }
+    .form-box button {}
+}

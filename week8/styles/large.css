@@ -1,0 +1,14 @@
+@media all and (min-width: 600px) {
+    .form-box {
+        flex-direction: row;
+    }
+    .form-box label {
+        flex-basis: 9rem;
+    }
+    .form-box input {}
+    .form-box select {}
+    .form-box textarea {
+        flex-basis: auto;
+    }
+    .form-box button {}
+}

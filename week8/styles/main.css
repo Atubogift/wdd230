@@ -1,0 +1,55 @@
+html {
+    box-sizing: border-box;
+    font-size: 20px;
+    line-height: 1.6;
+    font-family: 'PT Serif', serif;
+    color: #3587A4;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    margin: 1rem auto;
+    width: 95%;
+    max-width: 1000px;
+}
+
+main form {
+    text-align: center;
+}
+
+section,
+option,
+input,
+label,
+button {
+    padding: 0.2rem 1rem;
+    font-size: 1.2rem;
+    color: #3587A4;
+}
+
+.form-box {
+    padding: 0.5rem 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-box label {
+    display: none;
+}
+
+.form-box input {}
+
+.form-box select {}
+
+.form-box textarea {
+    flex-basis: auto;
+}
+
+.form-box button {}

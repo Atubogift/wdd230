@@ -1,74 +1,94 @@
-@import url("https://fonts.googleapis.com/css2?family=Acme&display=swap");
-* {
-	margin: 0;
-	padding: 0;
-}
-body {
-	height: 100vh;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	font-size: 18px;
-	font-family: Acme, Arial, sans-serif;
-}
+<!DOCTYPE html>
+<html>
 
-h1 {
-	font-size: 1.5rem;
-}
+<head>
+    <title>Print</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+</head>
 
-main {
-	margin: 0.5rem auto;
-	border: 1px solid #999;
-	padding: 0.5rem;
-	background-color: #bed;
-	display: grid;
-	grid-template-columns: 1fr;
-	width: 95%;
-}
+<body>
+    <table>
+        <tr class="tabletitle">
+            <td class="item">
+                <h3>Item</h3>
+            </td>
+            <td class="Hours">
+                <h3>Qty</h3>
+            </td>
+            <td class="Rate">
+                <h3>Sub Total</h3>
+            </td>
+        </tr>
 
-input,
-button {
-	padding: 0.35rem;
-	margin-left: 1rem;
-	font-size: 1.1rem;
-}
+        <tr class="service">
+            <td class="tableitem">
+                <p class="itemtext">Communication</p>
+            </td>
+            <td class="tableitem">
+                <p class="itemtext">5</p>
+            </td>
+            <td class="tableitem">
+                <p class="itemtext">$375.00</p>
+            </td>
+        </tr>
 
-input {
-	width: 200px;
-}
+        <tr class="service">
+            <td class="tableitem">
+                <p class="itemtext">Asset Gathering</p>
+            </td>
+            <td class="tableitem">
+                <p class="itemtext">3</p>
+            </td>
+            <td class="tableitem">
+                <p class="itemtext">$225.00</p>
+            </td>
+        </tr>
 
-label {
-	font-size: 0.9rem;
-}
-.listcontainer {
-	border: 1px solid #bbb;
-	margin: 1rem;
-	padding: 1rem;
-}
+        <tr class="service">
+            <td class="tableitem">
+                <p class="itemtext">Design Development</p>
+            </td>
+            <td class="tableitem">
+                <p class="itemtext">5</p>
+            </td>
+            <td class="tableitem">
+                <p class="itemtext">$375.00</p>
+            </td>
+        </tr>
 
-.list {
-	margin: 0.2rem;
-}
+        <tr class="tabletitle">
+            <td></td>
+            <td class="Rate">
+                <h3>Total</h3>
+            </td>
+            <td class="payment">
+                <h3>$3,644.25</h3>
+            </td>
+            <p style="padding-left: 14%; font-size: 100%;" id="date"></p>
 
-ul {
-	margin: 1rem;
-	list-style: none;
-}
 
-li {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	margin-bottom: 0.5rem;
-}
+        </tr>
 
-@media only screen and (min-width: 32.5em) {
-	h1 {
-		font-size: 2rem;
-	}
+    </table>
+    <small style="padding-left: 5%; font-size: 60%;">@copyright by quicktech </small>
+    </div>
+    <!--End Table-->
 
-	main {
-		width: 480px;
-	}
-}
+
+
+    </div>
+    <!--End InvoiceBot-->
+    </div>
+    <!--End Invoice-->
+    <script type="text/javascript">
+        n = new Date();
+        y = n.getFullYear();
+        m = n.getMonth() + 1;
+        d = n.getDate();
+        document.getElementById("date").innerHTML = m + "/" + d + "/" + y;
+    </script>
+</body>
+
+</html>
