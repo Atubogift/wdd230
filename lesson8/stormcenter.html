@@ -74,11 +74,12 @@
             <label> Storm Type
                 <select name="stormtype">
                     <option value="">Please Select an Option ▾</option>
-                    <option value="hail"> Hail </option>
+                    <option value="hail"> Tornado </option>
                     <option value="flashflood"> Flash Flood </option>
-                    <option value="tornado"> Tornado </option>
+                    <option value="tornado"> Hail </option>
                     <option value="thunder"> Thunderstorm </option>
                     <option value="hurricane"> Hurricane </option>
+                    <option value="sunny"> Sunny </option>
                 </select>
             </label>
             <br>
@@ -91,14 +92,15 @@
             <br>
             <select name="region">
                 <option value=""> Please Select a Region ▾</option>
-                <option value="preston"> Preston </option>
-                <option value="sodasprings"> Soda Springs </option>
-                <option value="fishhaven"> Fish Haven </option>
+                <option value="South Idaho"> South </option>
+                <option value="East Idaho"> East </option>
+                <option value="West Idaho"> West</option>
+                <option value="North Idaho"> North </option>
             </select>
         </label>
-            <div><strong> User-In-Danger Level </strong></div>
-            <label><input type="radio" name="audience" value="yesrespond">Yes</label>
-            <label><input type="radio" name="audience" value="norespond">No</label>
+            <div><strong> Are You In Danger </strong></div>
+            <label><input type="radio" name="audience" value="yesrespond">No</label>
+            <label><input type="radio" name="audience" value="norespond">Yes</label>
             <label><input type="radio" name="audience" value="maybe">Maybe</label>
 
         </fieldset>
@@ -107,12 +109,8 @@
             <legend> Add a Comment </legend>
 
             <div class="form-group">
-                <textarea class="form-control status-box" rows="3" placeholder="Enter your comment here..."></textarea>
+                <textarea class="form-control status-box" rows="5" placeholder="Enter your comment here..."></textarea>
             </div>
-
-
-
-
 
             <input type="submit" value="Send your responses" class="submitBtn">
 
