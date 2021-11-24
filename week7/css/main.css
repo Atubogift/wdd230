@@ -1,0 +1,118 @@
+/* 64em is also 1028px when basefont is 16px */
+
+@media only screen and (min-width: 1200px) {
+    html {
+        background-color: #88CCF1;
+    }
+    .headings h1 {
+        font-size: 2.75rem;
+        margin: 0 0 0 17px;
+    }
+    header img {
+        width: 250px;
+        height: 250px;
+        display: block;
+    }
+    #title {
+        font-size: 24pt;
+        line-height: 25pt;
+    }
+    body {
+        font-size: 16px;
+    }
+    .headtext {
+        padding: 10pt;
+    }
+    nav a {
+        font-size: 1.5rem;
+    }
+    header {
+        z-index: 10;
+        padding: 1rem;
+        position: relative;
+        text-align: center;
+        background-color: #3587A4;
+        box-shadow: 0 0 10px black;
+    }
+    header {
+        color: #3587A4;
+    }
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #3587A4;
+    }
+    section {
+        padding: 0 1em;
+    }
+    section.grid {
+        padding: 1rem;
+        display: grid;
+        grid-template-columns: 256px 1fr;
+    }
+    header,
+    nav,
+    main,
+    footer {
+        font-size: 105%;
+        max-width: 1200px;
+    }
+    h1 {
+        font-size: 30px;
+        text-transform: uppercase;
+        text-align: left;
+    }
+    h1 {
+        margin-bottom: 00.75rem;
+    }
+    .museum .stamp {
+        max-width: 32%;
+    }
+    .galleryentry:hover {
+        width: 100%;
+        font-size: 1em;
+        margin: 0;
+        transition: width, font-size;
+        transition-timing-function: ease-in-out;
+        transition-duration: 1.5s;
+    }
+    .galleryentry:hover {
+        box-shadow: 8px 10px 10px rgba(0, 100, 150, .5);
+        transition: width, font-size, box-shadow;
+        transition-timing-function: ease-in-out;
+        transition-duration: 1.5s;
+    }
+    .galleryentry {
+        width: 98%;
+        font-size: .98em;
+        box-shadow: 0px 0px 0px rgba(0, 100, 150, .5);
+        transition: width, font-size, box-shadow;
+        transition-timing-function: ease-in-out;
+        transition-duration: 1s;
+    }
+    .m {
+        font-style: Regular 400 italic;
+        letter-spacing: 1pt;
+        color: black;
+        margin-left: 20px;
+        font-size: 1rem;
+    }
+    /*/
+  main {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .hero, .forecast, .article {
+    grid-column: 1 / 4;
+  }
+/*/
+    /*/
+    
+  nav ul li {
+    padding: .6rem 1rem;
+  }
+/*/
+}
+
+
+/*end large */

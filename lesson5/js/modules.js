@@ -1,50 +1,30 @@
-let daynames = [
-    "Sunday",
-    "Monday",
-    "Tuesday",
-    "Wednesday",
-    "Thursday",
-    "Friday",
-    "Saturday",
-];
-let months = [
-    "January",
-    "February",
-    "March",
-    "April",
-    "May",
-    "June",
-    "July",
-    "August",
-    "September",
-    "October",
-    "November",
-    "December",
-];
-let d = new Date();
-let dayName = daynames[d.getDay()];
-let monthName = months[d.getMonth()];
-let fulldate =
-    dayName +
-    ", " +
-    monthName +
-    " " +
-    d.getDate() +
-    ", " +
-    d.getFullYear();
+var today = new Date();
+var dd = String(today.getDate()).padStart(2, '0');
+var mm = String(today.getMonth() + 1).padStart(2, '0');
+var yyyy = today.getFullYear();
 
-document.getElementById("currentdate").textContent = fulldate;
+today = "Last Updated: " + mm + '/' + dd + '/' + yyyy;
+document.write(today);
 
-document.getElementById("currentyear").textContent = d.getFullYear();
+let nLastModif = Date.parse(document.lastModified);
 
-let oLastModif = new Date(document.lastModified);
-document.getElementById("lastModified").textContent = oLastModif;
-
-
-
-function toggleMenu() {
-    document.getElementsByClassName("navigator")[1].classList.toggle("responsive");
+function adjustRating(rating) {
+    document.getElementById("ratingvalue").innerHTML = rating;
 }
-const millisecondsToDays = 8640000;
 
-const lastVisit = localStorage.getItem("lastvisit");
+/* credit: Hamburger video */
+const hambutton = document.querySelector('.ham');
+const mainnav = document.querySelector('.navigation')
+
+hambutton.addEventListener('click', () => { mainnav.classList.toggle('responsive') }, false);
+
+// To solve the mid resizing issue with responsive class on
+window.onresize = () => { if (window.innerWidth > 760) mainnav.classList.remove('responsive') };
+
+/*** Programming Notes **************************************
+  Arrow Functions - es6 syntactically compact alternative to a regular function expression
+  see https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions
+  or https://www.w3schools.com/js/js_arrow_function.asp
+
+  classList property - https://developer.mozilla.org/en-US/docs/Web/API/Element/classList
+  */
