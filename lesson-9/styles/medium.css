@@ -1,9 +1,6 @@
 /* 35em is also 560px when basefont is 16px */
 
 @media only screen and (min-width: 700px) {
-    html {
-        background-color: #C1DFF0;
-    }
     h1 {
         font-size: 1.5rem;
     }
@@ -24,11 +21,6 @@
     body {
         font-size: 15px;
     }
-    /*/
-  main {
-    grid-template-columns: 1fr 1fr;
-  }
-/*/
     nav button {
         display: none;
     }
@@ -92,45 +84,12 @@
     #innermator {
         order: 2;
     }
-    .address {
-        display: block;
+    #locationmap img {
+        max-width: 80%;
+        max-height: 130px;
     }
     .museum .stamp {
         max-width: 48%;
-    }
-    #new-form {
-        flex-flow: wrap;
-        font-size: 110%;
-    }
-    label {
-        margin: 15px 30px;
-    }
-    #commentext {
-        margin: 5px auto;
-        width: 35em;
-    }
-    #full-name,
-    #email {
-        width: 30em;
-    }
-    #zip {
-        width: 6em;
-    }
-    #phone {
-        width: 12em;
-    }
-    #date {
-        width: 12em;
-    }
-    #type {
-        width: 14em;
-    }
-    #region {
-        width: 15em;
-    }
-    .radios label {
-        top: -.55em;
-        left: .5em;
     }
     .cities .stamp {
         position: unset;
@@ -142,7 +101,7 @@
     }
     .citystats {
         position: unset;
-        background-color: #C1DFF0;
+        background-color: unset;
         font-size: 120%;
         text-shadow: unset;
     }

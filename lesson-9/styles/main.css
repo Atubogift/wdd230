@@ -1,0 +1,297 @@
+/* 64em is also 1028px when basefont is 16px */
+
+@media only screen and (min-width: 1200px) {
+    html {
+        background-color: #C1DFF0;
+    }
+    body {
+        font-size: 18px;
+        background-color: #C1DFF0;
+    }
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #3587A4;
+    }
+    header {
+        z-index: 10;
+        padding: 1rem;
+        position: relative;
+        text-align: center;
+        background-color: #3587A4;
+        box-shadow: 0 0 10px black;
+    }
+    header>span {
+        display: block;
+        color: black;
+        padding-bottom: 1rem;
+    }
+    header img {
+        width: 250px;
+        height: 250px;
+        display: block;
+    }
+    .headings h1 {
+        font-size: 2.75rem;
+        margin: 0 0 17px;
+    }
+    .m {
+        font-style: Regular 400 italic;
+        letter-spacing: 1pt;
+        color: #C1DFF0;
+        margin-left: 20px;
+        font-size: 1rem;
+    }
+    h1 {
+        color: var(--default-light);
+        margin-bottom: 0.75rem;
+    }
+    nav a {
+        font-size: 1.5rem;
+    }
+    header,
+    nav,
+    main,
+    footer {
+        font-size: 105%;
+        max-width: 1500px;
+    }
+    .museum .stamp {
+        max-width: 32%;
+    }
+    .galleryentry:hover {
+        width: 100%;
+        font-size: 1em;
+        margin: 0;
+        transition: width, font-size;
+        transition-timing-function: ease-in-out;
+        transition-duration: 1.5s;
+    }
+    .galleryentry:hover {
+        box-shadow: 8px 10px 10px rgba(0, 100, 150, .5);
+        transition: width, font-size, box-shadow;
+        transition-timing-function: ease-in-out;
+        transition-duration: 1.5s;
+    }
+    .galleryentry {
+        width: 98%;
+        font-size: .98em;
+        box-shadow: 0px 0px 0px rgba(0, 100, 150, .5);
+        transition: width, font-size, box-shadow;
+        transition-timing-function: ease-in-out;
+        transition-duration: 1s;
+    }
+    #new-form {
+        flex-flow: wrap;
+        font-size: 100%;
+    }
+    label {
+        margin: 25px auto;
+    }
+    #commentext {
+        margin: 5px auto;
+        width: 55em;
+    }
+    #full-name,
+    #email {
+        width: 30em;
+    }
+    .radios label {
+        top: -1.3em;
+        left: 2.5em;
+    }
+    .citystats h1 {
+        text-align: center;
+    }
+    .cities {
+        display: flex;
+        flex-flow: wrap;
+    }
+    .cities .stamp {
+        width: 30%;
+        flex-flow: column;
+    }
+    .cities .stamp:nth-child(even) {
+        flex-flow: column;
+    }
+    .citystats {
+        font-size: 110%;
+        width: 100%;
+        text-align: center;
+    }
+    .cities .stamp img {
+        width: 100%;
+    }
+    #firsttime:hover {
+        width: 40%;
+        height: 70%;
+    }
+    body>* {
+        grid-column: 2;
+    }
+    h1 {
+        font-size: 30px;
+        text-transform: uppercase;
+        text-align: left;
+    }
+    nav {
+        background-color: #88CCF1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: sticky;
+        top: 0;
+    }
+    nav button {
+        display: none;
+    }
+    nav ul.hide {
+        display: block;
+    }
+    nav>ul {
+        margin: 0;
+        padding: 0;
+        display: grid;
+        list-style: none;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        box-shadow: 0 0 10px var(--default-dark);
+    }
+    nav ul {
+        list-style-type: none;
+        align-items: center;
+        text-align: center;
+        margin-left: 0;
+        padding: 1;
+        display: flex;
+        flex: 1 1 100%;
+    }
+    nav a {
+        /* It doesn't work to have this one with the other css block */
+        height: calc(100% - 2em);
+    }
+    nav a,
+    span.navR {
+        z-index: 8;
+        padding: 1em 0;
+        display: block;
+        margin-right: 0;
+        width: calc(100%);
+        font-weight: bold;
+        text-align: center;
+        position: relative;
+        text-decoration: none;
+        color: var(--default-light);
+        background-color: var(--default-dark);
+        box-shadow: 0 0 10px var(--default-dark);
+    }
+    nav a.at,
+    nav a:active,
+    span.navA {
+        background-color: var(--main-color);
+        box-shadow: 0 0 10px var(--main-color);
+        font-weight: bold;
+        padding: 1em 0;
+        z-index: 9;
+    }
+    /*nav>ul {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    list-style: none;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    box-shadow: 0 0 10px var(--default-dark);
+    }*/
+    nav ul li {
+        float: left;
+    }
+    nav ul li a {
+        border: none;
+        padding: .6rem 1rem;
+        align-items: center;
+        text-align: center;
+    }
+    .headings h1 {
+        font-size: 2.75rem;
+        margin: 0 0 0 17px;
+    }
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #3587A4;
+    }
+    header img {
+        width: 250px;
+        height: 250px;
+        display: block;
+    }
+    .m {
+        font-style: Regular 400 italic;
+        letter-spacing: 1pt;
+        color: #C1DFF0;
+        margin-left: 20px;
+        font-size: 1rem;
+    }
+    section {
+        padding: 0 1em;
+    }
+    section.grid {
+        padding: 1rem;
+        display: grid;
+        grid-template-columns: 256px 1fr;
+    }
+    .organize.img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+    }
+    .organizeRight.img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+        float: none;
+    }
+    section.grid>img {
+        width: 80%;
+        /* I just had to match this percent
+                       with the temperature on the logo */
+        align-self: center;
+        justify-self: center;
+    }
+    .herodiv {
+        margin: 15px auto;
+        position: relative;
+    }
+    h1,
+    h2,
+    p {
+        margin: 1;
+    }
+    /*/
+  input[type='radio'] {
+    height: 25px;
+    width: 25px;
+    vertical-align: middle;
+    margin:30px 10px;
+  }
+  /*/
+    /*/
+  main {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .hero, .forecast, .article {
+    grid-column: 1 / 4;
+  }
+/*/
+    /*/
+  nav ul li {
+    padding: .6rem 1rem;
+  }
+/*/
+}
+
+
+/*end large */

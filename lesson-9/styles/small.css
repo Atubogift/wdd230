@@ -16,14 +16,14 @@ html {
 
 body {
     /*  font-size: 10pt;*/
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Regular 400', Regular 400 italic;
     color: black;
     line-height: 14pt;
     padding-left: 5pt;
     padding-right: 5pt;
     padding-top: 5pt;
     margin: auto;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 main {
@@ -49,7 +49,7 @@ footer {
 header,
 footer {
     background-color: #2589bd;
-    color: white;
+    color: black;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -124,7 +124,7 @@ header {
 
 #title {
     font-size: 13pt;
-    color: rgba(255, 255, 255, 0.85);
+    color: #C1DFF0;
     font-weight: bold;
 }
 
@@ -197,10 +197,6 @@ header {
 /*/
 
 #heroimg {
-    /*/
-    background-image: url("https://images.pexels.com/photos/1968740/pexels-photo-1968740.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
-/*/
-    background-image: url("https://garlonuss.github.io/wdd230/lesson6/images/wdd230_image_franklin_small.png");
     background-position: center;
     background-size: 100%;
     width: 100%;
@@ -261,51 +257,6 @@ header {
     text-align: center;
 }
 
-#day1,
-#day2,
-#day3,
-#day4,
-#day5 {
-    width: 45px;
-    height: 45px;
-    background-color: rgba(255, 255, 255, 0.5);
-    border-radius: 3px;
-    margin: 5px auto;
-    text-align: center;
-    font-size: 7pt;
-    color: white;
-    text-shadow: 0 0 15px black, ;
-    font-weight: bold;
-}
-
-#day1 {
-    background-image: url("https://images.pexels.com/photos/912364/pexels-photo-912364.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
-    background-size: 500%;
-}
-
-#day2 {
-    background-image: url("https://images.pexels.com/photos/912364/pexels-photo-912364.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
-    background-size: 500%;
-}
-
-#day3 {
-    background-image: url("https://images.pexels.com/photos/2775196/pexels-photo-2775196.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
-    background-size: 210%;
-    background-position-x: center;
-}
-
-#day4 {
-    background-image: url("https://images.pexels.com/photos/8698556/pexels-photo-8698556.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
-    background-size: 120%;
-    background-position-x: center;
-}
-
-#day5 {
-    background-image: url("https://images.pexels.com/photos/2775196/pexels-photo-2775196.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
-    background-size: 210%;
-    background-position-x: center;
-}
-
 .article img {
     border-radius: 4px;
     margin: 0px auto;
@@ -321,7 +272,7 @@ footer {
 }
 
 h1 {
-    font: 14pt 'Bebas Neue', cursive, Helvetica, sans-serif;
+    font: 14pt 'Regular 400 italic', Regular 400, Helvetica, sans-serif;
     font-weight: bold;
     line-height: 20pt;
 }
@@ -351,7 +302,7 @@ nav {
     /* IE6-9 */
     text-align: center;
     box-shadow: 0 1px 10px rgb(121, 190, 173);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Regular 400 italic, Regular 400, sans-serif;
 }
 
 nav ul {
@@ -615,30 +566,6 @@ input[type='radio'] {
     transition: width top;
     transition-duration: .5s;
     transition-timing-function: ease-in-out;
-}
-
-@keyframes rotate_out {
-    0% {
-        transform: rotatey(-90deg)
-    }
-    70% {
-        transform: rotatey(20deg)
-    }
-    100% {
-        transform: rotatey(0deg)
-    }
-}
-
-@keyframes rotate_in {
-    0% {
-        transform: rotatey(0deg)
-    }
-    70% {
-        transform: rotatey(20deg)
-    }
-    100% {
-        transform: rotatey(-90deg)
-    }
 }
 
 
