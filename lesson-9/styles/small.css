@@ -272,7 +272,7 @@ footer {
 }
 
 h1 {
-    font: 14pt 'Regular 400 italic', Regular 400, Helvetica, sans-serif;
+    font: 14pt 'Regular 400 italic', sans-serif;
     font-weight: bold;
     line-height: 20pt;
 }
@@ -436,6 +436,14 @@ label textarea:focus+div {
 
 input {
     padding: 10px;
+}
+
+.m {
+    font-style: Regular 400 italic;
+    letter-spacing: 1pt;
+    color: #C1DFF0;
+    margin-left: 20px;
+    font-size: 1rem;
 }
 
 input:required+div::after {

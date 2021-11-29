@@ -1,9 +1,6 @@
 /* 35em is also 560px when basefont is 16px */
 
 @media only screen and (min-width: 700px) {
-    h1 {
-        font-size: 1.5rem;
-    }
     #logo_75 {
         visibility: visible;
     }
@@ -111,6 +108,13 @@
     #firsttime:hover {
         width: 55%;
         height: 60%;
+    }
+    .m {
+        font-style: Regular 400 italic;
+        letter-spacing: 1pt;
+        color: #C1DFF0;
+        margin-left: 20px;
+        font-size: 1rem;
     }
     /*/
   input[type='radio'] {
