@@ -216,17 +216,6 @@ input {
     overflow: visible;
 }
 
-button,
-input,
-optgroup,
-select,
-textarea {
-    font-family: inherit;
-    font-size: 100%;
-    line-height: 1.15;
-    margin: 0;
-}
-
 
 /**
    * Remove the inheritance of text transform in Edge, Firefox, and IE.
@@ -236,7 +225,7 @@ textarea {
 button,
 select {
     /* 1 */
-    text-transform: visible;
+    text-transform: none;
 }
 
 

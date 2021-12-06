@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>G-tubo Weather Site - Preston Idaho</title>
+    <meta name="description" content="A great Weather Site you use to Plan your day and activities">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shorcut icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="csss/small.css">
+    <link rel="stylesheet" href="csss/main.css">
+    <link rel="stylesheet" href="csss/medium.css">
+    <link rel="stylesheet" href="csss/normalize.css">
+
+</head>
+
+<body data-new-gr-c-s-check-loaded="14.1039.0" data-grammarly-shadow-root="true">
+    <!--[if lt IE 7]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    <header>
+        <picture>
+            <img src="images/weather.png" alt="The weather logo">
+        </picture>
+        <section class="headings">
+            <h1>All Weather Forecast</h1>
+            <q class="m">Rain or shine, learn how the weather works for you to prepare for your 
+            activity through daily forecasts, climate change and weather security!</q>
+        </section>
+    </header>
+    <nav>
+        <div class="pancakeFri" style="display: none;">
+            Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.</div>
+    </nav>
+    <nav class="clearfix">
+        <button onclick="toggleMenu()">☰ Menu</button>
+        <ul id="primaryNav" class="hide">
+            <li><a href="home-wireframes.html">Home</a></li>
+            <li><a href="preston.html">Preston</a></li>
+            <li class="active"><a href="sodaspring.html">Soda Springs</a></li>
+            <li><a href="fishhaven.html">Fish Heaven</a></li>
+            <li><a href="stormcenter.html">Storm Center</a></li>
+            <li><a href="gallery-7.html">Gallery</a></li>
+        </ul>
+    </nav>
+    </nav>
+    <h2>Soda Springs Idaho</h2>
+    <div class="herodiv">
+        <div id="heroimg"></div>
+        <img src="images/preston.png" alt="hero image" sizes="60vw" srcset="images/preston.png 500w,
+        images/preston.png 500w,
+        images/preston.png 500w,">
+        <section class="stats">
+            <h2>Weather Summary</h2>
+            <p>Currently: <span id="gender">Sunny</span></p>
+            <p>High: <span id="age">76°F</span></p>
+            <p>Wind Chill: <span id="shots">°F</span></p>
+            <p>Humidity: <span id="shots">69%</span></p>
+            <p>Wind Speed: <span id="shots">5 mph</span></p>
+        </section>
+    </div>
+    <br>
+    <h2>5-Day Forecast</h2>
+    <br>
+    <div class="flex">
+        <div class="flex-col">
+            <span class="col-head">Wed</span>
+            <img src="images/rainsunny .png" alt="sun">
+            <span class="data">53°F</span>
+        </div>
+        <div class="flex-col">
+            <span class="col-head">Thu</span>
+            <img src="images/winter.png" alt="winter">
+            <span class="data">59°F</span>
+        </div>
+        <div class="flex-col">
+            <span class="col-head">Fri</span>
+            <img src="images/snowflake.png" alt="snowflake">
+            <span class="data">63°F</span>
+        </div>
+        <div class="flex-col">
+            <span class="col-head">Sat</span>
+            <img src="images/snow-winter.png" alt="snow">
+            <span class="data">60°F</span>
+        </div>
+        <div class="flex-col">
+            <span class="col-head">Sun</span>
+            <img src="images/rain.png" alt="rain">
+            <span class="data">52°F</span>
+        </div>
+    </div>
+    <br>
+    <div class="content-section">
+        <img src="images/heavysnow.jpg" alt="Article">
+        <h2>Weather Article</h2>
+        <h3>Winter Storm Warnings Issued southeastern Idaho</h3>
+        <p>Heavy snow for mountain areas of Eastern Idaho Wed/Thur. Accumulations beyond 12" for Central mountains, High Country and Jackson and 8" for Southeastern Idaho areas.</p>
+        <br>
+        <p>Several inches possible 50% chance for IF north with rain/snow mix for Pocatello south.</p> <br>
+        <p> Winds will pick up with this system 25+ mph and make for hazardous road conditions and blowing snow. Temperatures will be in the 25-31 degree range today with some sun/cloud mix, then showers start to the east tonight and more snow beginning overnight
+            for the Sun Valley.</p> <br>
+        <p> More at noon on 8.1</p> <br>
+        <p> Jeff Roper, First Alert Weather </p>
+    </div>
+
+    <div class="dividerBox">
+
+        <div class="herodiv">
+            <h2> Contact Us</h2><br>
+            <section class="stats">
+                <p><b>Address:</b> <span id="gender">30 N 1st E</span></p>
+                <p><b>City &amp; Zip Code:</b> <span id="age">Preston, ID 83263</span></p>
+                <p><b>Phone Number:</b> <span id="shots">888-888-8888</span></p>
+                <p><b>Email:</b> <span id="shots">www.allweatherforecast.com</span></p>
+            </section>
+        </div>
+
+        <div class="content">
+            <img class="organize" src="images/idaho.png" alt="preston map">
+        </div>
+        <br>
+        <br>
+        <br><br>
+        <br>
+        <br>
+
+        <footer>
+            ©<span class="year">2021</span> Atubo T. Gift | Nigeria |<a target="_blank" href="https://byui.edu/online">BYUI Online Learning</a>
+            <div>
+                <script src="../lesson5/js/modules.js"></script>Last Updated: 11/15/2021
+            </div>
+            <div id="allweatherforecastsocialmedia">
+                <a href="socialmedia">Terms of Use</a>
+            </div>
+            <div class="socialmedia">
+                <a class="socialmedia" target="_blank" href="https://web.facebook.com/"><img class="icon" src="images/facebook.png" alt="facebook"></a>
+                <a class="socialmedia" target="_blank" href="https://www.instagram.com/"><img class="icon" src="images/instagram.png" alt="instagram"></a>
+                <a class="socialmedia" target="_blank" href="https://www.youtube.com/"><img class="icon" src="images/youtube.png" alt="youtube"></a>
+            </div>
+        </footer>
+        <script src="js/modules.js"></script>
+        <script src="js/toggleMenu.js"></script>
+    </div>
+    </div>
+</body>
+<grammarly-desktop-integration data-grammarly-shadow-root="true">
+    #shadow-root (open)
+</grammarly-desktop-integration>
+
+</html>

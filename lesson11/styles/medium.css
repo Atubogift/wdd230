@@ -6,10 +6,23 @@ body {
     grid-template-columns: 1fr 1fr;
 }
 
+
+/*nav {
+        border: 1px solid #3587A4;
+        grid-template-columns: 1fr 1fr;
+        border-width: 1px 0;
+        list-style: none;
+        margin: 1;
+        padding: 1;
+        text-align: center;
+        display: inline-block;
+        justify-content: center;
+    }*/
+
 nav {
     margin: 0 auto;
     max-width: 760px;
-    background-color: #3587A4;
+    background-color: #C1DFF0;
 }
 
 .navigation {
@@ -22,7 +35,7 @@ nav {
     padding: 0.75rem;
     text-align: left;
     text-decoration: none;
-    color: #C1DFF0;
+    color: black;
     font-weight: 700;
     transition: 0.5s;
 }
@@ -45,7 +58,7 @@ nav {
     display: block;
 }
 
-@media only screen and (min-width: 64em) {
+@media only screen and (min-width: 700px) {
     .navigation {
         display: flex;
     }
@@ -70,6 +83,69 @@ nav {
         margin: 0 auto;
         width: 50%;
     }
+    h1 {
+        font-size: 1.5rem;
+    }
+    #title {
+        font-size: 16pt;
+        line-height: 17pt;
+    }
+    body {
+        font-size: 15px;
+    }
+    /*/
+  main {
+    grid-template-columns: 1fr 1fr;
+  }
+/*/
+    nav button {
+        display: none;
+    }
+    nav ul {
+        margin-left: 2%;
+    }
+    nav ul li {
+        float: left;
+    }
+    nav ul li a {
+        border: none;
+        border-right: 1px solid rgba(0, 0, 0, .3);
+        padding: .8rem 1rem;
+    }
+    nav ul.hide {
+        display: block;
+    }
+    .summary {
+        position: absolute;
+        top: 30px;
+        left: 20px;
+        min-width: 200px;
+        background-color: rgba(255, 255, 255, 0.75);
+        border-radius: 5px;
+    }
+    .article {
+        display: block;
+        text-align: justify;
+    }
+    .article img {
+        max-width: 30%;
+        max-height: 40%;
+        float: right;
+    }
+    #socialmedia {
+        display: block;
+    }
+    #terminator {
+        flex-direction: row;
+    }
+    .museum .stamp {
+        max-width: 48%;
+    }
+    /*/
+  .hero, .forecast, .article {
+    grid-column: 1 / 3;
+  }
+/*/
 }
 
 

@@ -95,6 +95,7 @@
                 h1 {
                     color: var(--default-light);
                     margin-bottom: 0.75rem;
+                    text-align: center;
                 }
                 
                 .herodiv {
@@ -514,6 +515,10 @@
                     }
                     h4+p {
                         margin-left: 30px;
+                    }
+                    .reportBtn {
+                        margin: 0 auto;
+                        width: 25%;
                     }
                     /* Styles for the footer and it's child elements */
                     footer {
