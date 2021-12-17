@@ -1,0 +1,111 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+
+/*----------- apply a natural box layout model to all elements --------------*/
+
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+@media only screen and (min-width: 32.5em) {
+    .wrap-banner {
+        background-image: url(../image/weather1.png);
+        background-repeat: no-repeat;
+        background-size: 1fr 1fr;
+        background-position: center center;
+    }
+    body {
+        grid-template-columns: auto 50% auto;
+    }
+    nav {
+        margin: 0 auto;
+        max-width: 760px;
+        background-color: #C1DFF0;
+    }
+    header {
+        z-index: 4;
+        padding: 1rem;
+        position: relative;
+        text-align: center;
+        background-color: #3587A4;
+        box-shadow: 0 0 5px black;
+    }
+    nav button {
+        margin: 0.2rem 2%;
+        background-color: transparent;
+        border: none;
+        font-size: 1.6rem;
+        color: rgb(228, 234, 248);
+    }
+}
+
+
+/*----------- apply a natural box layout model to all elements --------------*/
+
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+@media only screen and (min-width: 32.5em) {
+    .wrap-banner {
+        background-image: url(../image/weather1.png);
+        background-repeat: no-repeat;
+        background-size: 1fr 1fr;
+        background-position: center center;
+    }
+    body {
+        grid-template-columns: auto 50% auto;
+    }
+    nav {
+        margin: 0 auto;
+        max-width: 760px;
+        background-color: #C1DFF0;
+    }
+    header {
+        z-index: 4;
+        padding: 1rem;
+        position: relative;
+        text-align: center;
+        background-color: #3587A4;
+        box-shadow: 0 0 5px black;
+    }
+    nav button {
+        margin: 0.2rem 2%;
+        background-color: transparent;
+        border: none;
+        font-size: 1.6rem;
+        color: rgb(228, 234, 248);
+    }
+    .content-section3 {
+        display: block;
+        margin: auto;
+        padding: 50px;
+        background-color: #7da094;
+        box-shadow: 10px rgb(58, 55, 52);
+        color: #001F29;
+        font-weight: bold;
+        font-size: 18px;
+        border-radius: 10px 10px 10px 10px;
+    }
+    .content-section img {
+        float: right;
+        width: 600px;
+        height: 300px;
+        box-shadow: 5px #C1DFF0;
+    }
+    .content img {
+        max-width: 90%;
+        max-height: 70%;
+        float: right;
+        box-shadow: 5px #88CCF1;
+    }
+}

@@ -1,0 +1,172 @@
+body {
+    grid-template-columns: auto 90% auto;
+}
+
+#typo-wrapper {
+    grid-template-columns: 1fr 1fr;
+}
+
+
+/*nav {
+        border: 1px solid #3587A4;
+        grid-template-columns: 1fr 1fr;
+        border-width: 1px 0;
+        list-style: none;
+        margin: 1;
+        padding: 1;
+        text-align: center;
+        display: inline-block;
+        justify-content: center;
+    }*/
+
+nav {
+    margin: 0 auto;
+    max-width: 760px;
+    background-color: #C1DFF0;
+}
+
+.navigation {
+    list-style: none;
+    padding: 0;
+}
+
+.navigation a {
+    display: block;
+    padding: 0.75rem;
+    text-align: left;
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    transition: 0.5s;
+}
+
+.navigation li:first-child {
+    display: none;
+}
+
+.navigation a:hover {
+    color: white;
+    background-color: black;
+}
+
+
+/* the onclick JS toggles the .reponsive class from display none (.navigation li) to display block because the responsive class is added to the end of the class list like this in HTML.
+      <ul class="navigation responsive">
+    */
+
+.responsive li {
+    display: block;
+}
+
+
+/* Media Query for medium+ views */
+
+@media only screen and (min-width: 64em) {
+    .navigation {
+        display: flex;
+    }
+    .navigation li {
+        display: block;
+        flex: 1 1 auto;
+    }
+    .navigation a {
+        text-align: center;
+    }
+    .navigation li:first-child {
+        display: none;
+    }
+    .content-section img {
+        padding-left: 5px;
+        float: right;
+        width: 300px;
+        height: 350px;
+    }
+}
+
+
+/*
+header img {
+    width: 150px;
+    height: auto;
+}
+
+section.grid {
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: 256px 1fr;
+}
+
+.organize.img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+.organizeRight.img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    float: none;
+}
+
+section.grid>img {
+    width: 50%;
+    /* I just had to match this percent
+       with the temperature on the logo */
+
+
+/*
+align-self: center;
+justify-self: center;
+
+}
+section {
+    padding: 0 1em;
+}
+section.grid {
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: 156px 1fr;
+}
+.organize.img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.organizeRight.img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    float: none;
+}
+section.grid>img {
+    width: 50%;
+    /* I just had to match this percent
+       with the temperature on the logo */
+
+
+/*align-self: center;
+justify-self: center;
+
+}
+
+/*.h2main {
+    text-align: center;
+}
+
+
+/*nav {
+    background-color: #88CCF1;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    background-color: #3587A4;
+}
